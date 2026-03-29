@@ -10,3 +10,11 @@ export type ApiDebt = {
   effectiveAnnualRate: string;
   cutoffDate: string;
 };
+
+export type ApiInvestment = {
+  id: string;
+  name: string;
+  currentBalance: string;
+  effectiveAnnualRate: string;
+  cutoffDate: string;
+};

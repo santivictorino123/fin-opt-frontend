@@ -394,3 +394,75 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   width: auto;
 }
 
+/* --- Investment Components --- */
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.investment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.investment-card {
+  padding: 1.5rem;
+  gap: 1rem;
+}
+
+.investment-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.investment-card-header h2 {
+  font-size: 1.25rem;
+  margin: 0;
+  color: var(--text-main);
+}
+
+.investment-tag {
+  background: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.investment-info {
+  margin: 0.5rem 0;
+}
+
+.investment-amount {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text-main);
+  letter-spacing: -0.05em;
+}
+
+.investment-label {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.investment-stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--glass-border);
+}
+
+.highlight-green {
+  color: #34d399;
+}
+
+.investment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
